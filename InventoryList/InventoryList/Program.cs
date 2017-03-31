@@ -62,7 +62,7 @@ namespace InventoryList
                         }
                         else
                         {
-                        Console.WriteLine(ItemToSearch + " isn't " + currentItem.name);
+                            Console.WriteLine(ItemToSearch + " isn't " + currentItem.name);
                         }
 
                         previousItem = currentItem;
