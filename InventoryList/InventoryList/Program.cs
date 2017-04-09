@@ -51,7 +51,6 @@ namespace InventoryList
             Console.WriteLine("Type the item you want to pick up");
             string ItemToSearch = Console.ReadLine();
             Items currentItem = Item1;
-            Items previousItem;
 
                     while (currentItem != null)
                     {
@@ -65,7 +64,6 @@ namespace InventoryList
                             Console.WriteLine(ItemToSearch + " isn't " + currentItem.name);
                         }
 
-                        previousItem = currentItem;
                         currentItem = currentItem.next;
                     }
 
